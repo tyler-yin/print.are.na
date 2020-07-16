@@ -45,8 +45,10 @@ export interface Block {
     title: string
   }
   connected_by_username?: string
+  authorid: string
   user: {
     username: string
+    id: number
   }
 }
 

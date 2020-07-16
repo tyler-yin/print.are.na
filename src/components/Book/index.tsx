@@ -48,6 +48,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
   const bookRef = useRef(null)
   const [rendered, setRendered] = useState(false)
   const [mode, setMode] = useState("interior")
+  const [alphabetical, setAlphabetical] = useState(true)
   const location = useLocation()
   const options: URLOptions = {
     ...defaultOptions,
@@ -57,6 +58,17 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
   const handleClick = useCallback(() => {
     setMode("cover")
   }, [setMode])
+
+  useEffect(() => {
+    alphabetical &&
+      !rendered &&
+      contents.sort(
+        (one: any, two: any) =>
+          one.generated_title
+            .replace(/\s/g, "") // strip weird characters
+            .localeCompare(two.generated_title.replace(/\s/g, "")) // compare with previous item
+      )
+  }, [alphabetical, contents, rendered])
 
   useEffect(() => {
     if (bookRef.current && !rendered) {
@@ -97,8 +109,8 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         },
         pageSetup: {
           size: {
-            width: "4.25in",
-            height: "6.875in",
+            width: "5.5in",
+            height: "8.5in",
           },
           margin: {
             top: "0.3in",

@@ -31,14 +31,17 @@ interface TableOfContentsProps {
 
 const TableOfContents: React.FC<TableOfContentsProps> = ({ blocks }) => {
   const blocksWithTitles = blocks.filter(b => !!b.title)
+  let lastTitle = ""
 
   return (
     <Container className="page toc-page">
       {blocksWithTitles.map(b => {
         return (
-          <ContentsLine href={`#${b.id.toString()}`} className="toc-line">
-            <Title dangerouslySetInnerHTML={{ __html: b.title }} />
-          </ContentsLine>
+          b.title !== lastTitle && (
+            <ContentsLine href={`#${b.id.toString()}`} className="toc-line">
+              <Title dangerouslySetInnerHTML={{ __html: b.title }} />
+            </ContentsLine>
+          )
         )
       })}
       <PageBreak />

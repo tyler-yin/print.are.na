@@ -5,6 +5,8 @@ import Header from "components/Header"
 
 import { PageBreak } from "styles/index"
 
+import "./AuthorType.css"
+
 import { Block, URLOptions } from "../../types"
 
 const HiddenTitle = styled.h1`
@@ -88,7 +90,7 @@ const Description = styled(SmallType as any)`
   position: absolute;
   top: 0;
   bottom: 0;
-  height: 6.275in;
+  height: 7.75in;
   width: 100%;
   font-weight: normal;
   display: flex;
@@ -134,7 +136,9 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
       : block.description_html.length > DESCRIPTION_THRESHOLD
 
   return (
-    <ContainerWithMargin className="page">
+    <ContainerWithMargin
+      className={"page text authorstyle author" + block.user.id.toString()}
+    >
       <HiddenTitle>{block.title}</HiddenTitle>
 
       <Header title={block.title} id={block.id} />
@@ -157,12 +161,18 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
         block.description_html && <PageBreak />}
 
       {longDescription && block.description_html && options.description && (
-        <P dangerouslySetInnerHTML={{ __html: block.description_html }} />
+        <P
+          className={"description"}
+          dangerouslySetInnerHTML={{ __html: block.description_html }}
+        />
       )}
 
       <Description>
         {options.description && hasDescription && !longDescription && (
-          <div dangerouslySetInnerHTML={{ __html: block.description_html }} />
+          <div
+            className={"description"}
+            dangerouslySetInnerHTML={{ __html: block.description_html }}
+          />
         )}
 
         {options.source &&
