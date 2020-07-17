@@ -29,9 +29,11 @@ const Style = createGlobalStyle`
   }
 
   .📖-running-header {
-    top: 0.3in;
+    position: absolute;
+    bottom: 0.25in !important;
     min-height: 0.3in;
     pointer-events: none;
+    text-align: center;
   }
 
   .📖-right .📖-running-header {
@@ -40,7 +42,8 @@ const Style = createGlobalStyle`
   }
 
   .📖-page.📖-left .page-header {
-    padding-left: 0.35in;
+    // padding-left: 0.35in;
+    padding-left: 0in;
   }
 
   .page.📖-continuation.📖-continues {

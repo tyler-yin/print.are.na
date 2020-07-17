@@ -11,7 +11,7 @@ const Container = styled.div`
   justify-content: space-between;
   font-size: 13pt;
   margin-bottom: 0.175in;
-  max-width: 2.65in;
+  max-width: 5.5in;
   min-height: 0.175in;
   overflow: hidden;
 

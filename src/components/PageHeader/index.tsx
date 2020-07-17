@@ -7,8 +7,11 @@ const Container = styled.div<{ isRight: boolean }>`
   width: 100%;
   display: flex;
   justify-content: ${props => (props.isRight ? "flex-end" : "flex-start")};
-  font-size: 12pt;
+  font-size: 10pt;
   pointer-events: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0.15in;
 `
 
 interface PageHeaderProps {
