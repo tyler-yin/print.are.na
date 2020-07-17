@@ -5,6 +5,8 @@ import { Block } from "../../types"
 import { PageBreak } from "styles/index"
 
 const Container = styled.div`
+// font-family: 'Berthold Medium';
+// font-size: 11pt;
   display: flex;
   height: 100%;
   flex-direction: column;

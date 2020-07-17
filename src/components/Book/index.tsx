@@ -116,7 +116,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             top: "0.3in",
             inner: "0.65in",
             outer: "0.35in",
-            bottom: "0.35in",
+            bottom: "0.55in",
           },
         },
         rules: [
@@ -198,7 +198,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         {hasTOC && options.toc && (
           <>
             <div className="toc-start" />
-            <SectionPage title="Table of Contents" />
+            <SectionPage title="Table of Dark Matters" />
             <TableOfContents blocks={contents} />
           </>
         )}

@@ -30,15 +30,17 @@ const Img = styled.img`
   max-height: calc(var(--bindery-page-height) - 2.25in);
   display: block;
   flex: 1;
+  clear:both;
   margin: 0 auto;
   height: auto;
   object-fit: contain;
   object-position: top;
+  filter: grayscale(100%) opacity(100%);
 `
 
 const P = styled.p<{ hasAuthor?: boolean }>`
   margin: 0;
-  font-size: 13pt;
+  font-size: 21pt;
   line-height: 1.25;
 
   overflow-wrap: break-word;
@@ -48,6 +50,8 @@ const P = styled.p<{ hasAuthor?: boolean }>`
   word-break: break-all;
   word-break: break-word;
 
+  // padding-bottom: 0.25in;
+
   > p:first-child {
     margin: 0;
   }
@@ -56,21 +60,23 @@ const P = styled.p<{ hasAuthor?: boolean }>`
     props.hasAuthor &&
     `
     > p:last-child {
-      margin-bottom: 0.45in;
+      // margin-bottom: 0.45in;
+      margin-bottom: 0.25in;
     }
   `}
 `
 
 const BigP = styled(P as any)`
-  font-size: 30pt;
-  line-height: 1.1;
+  font-size: 21pt;
+  line-height: 1.25;
+  padding-bottom: 0.25in;
   > p:first-child {
     margin: 0;
   }
 `
 
 const SmallType = styled.div`
-  font-size: 8pt;
+  font-size: 16pt;
   line-height: 1.25;
   margin: 0.5em 0;
 
@@ -86,11 +92,13 @@ const Source = styled(SmallType as any)`
   margin-top: 0;
 `
 
-const Description = styled(SmallType as any)`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 7.75in;
+// const Description = styled(SmallType as any)`
+const Description = styled.div`
+  font-size: 16pt;
+  // position: absolute;
+  // top: 0;
+  // bottom: 0;
+  // height: 7.75in;
   width: 100%;
   font-weight: normal;
   display: flex;
@@ -98,10 +106,12 @@ const Description = styled(SmallType as any)`
   justify-content: flex-end;
   padding-bottom: 0.375in;
   pointer-events: none;
+  // padding-top: 0.25in;
 
   > * {
     pointer-events: all;
   }
+
 
   > p:first-child {
     margin: 0;
@@ -141,7 +151,7 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
     >
       <HiddenTitle>{block.title}</HiddenTitle>
 
-      <Header title={block.title} id={block.id} />
+      <Header title={block.title} id={block.id}/>
 
       {block.hasImage && <Img src={block.imageUrl} alt={block.title} />}
 
@@ -169,7 +179,7 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
 
       <Description>
         {options.description && hasDescription && !longDescription && (
-          <div
+          <P
             className={"description"}
             dangerouslySetInnerHTML={{ __html: block.description_html }}
           />
@@ -188,7 +198,7 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
           )}
 
         {options.author && (
-          <SmallType>Added by {block.connected_by_username}</SmallType>
+          <div className="neutral">— contributed by {block.connected_by_username}</div>
         )}
       </Description>
 

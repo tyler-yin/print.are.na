@@ -1,0 +1,14 @@
+@import url("https://use.typekit.net/kid6drd.css");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+
+
+@font-face {
+    font-family: 'Reckless';
+    src:
+        url('./fonts/RecklessNeue-Medium.otf') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
