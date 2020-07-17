@@ -40,7 +40,7 @@ const Img = styled.img`
 
 const P = styled.p<{ hasAuthor?: boolean }>`
   margin: 0;
-  font-size: 21pt;
+  font-size: 15pt;
   line-height: 1.25;
 
   overflow-wrap: break-word;
@@ -76,7 +76,7 @@ const BigP = styled(P as any)`
 `
 
 const SmallType = styled.div`
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 1.25;
   margin: 0.5em 0;
 
@@ -94,7 +94,7 @@ const Source = styled(SmallType as any)`
 
 // const Description = styled(SmallType as any)`
 const Description = styled.div`
-  font-size: 16pt;
+  font-size: 12pt;
   // position: absolute;
   // top: 0;
   // bottom: 0;
@@ -123,7 +123,8 @@ interface PageProps {
   options: URLOptions
 }
 
-const TEXT_THRESHOLD = 70
+// const TEXT_THRESHOLD = 70
+const TEXT_THRESHOLD = 465
 const DESCRIPTION_THRESHOLD = 390
 const LONG_IMAGE_DESCRIPTION_THRESHOLD = 365
 

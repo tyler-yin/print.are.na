@@ -279,7 +279,7 @@ a {
 }
 
 p.description{
-  font-size: 16pt;
+  font-size: 14pt;
   padding-left: .2in;
   padding-top: .05in;
   padding-bottom: .05in !important;
@@ -291,7 +291,7 @@ p.description{
 }
 
 h2,  p.description h2{
-  font-size: 16pt;
+  font-size: 14pt;
   padding-left: 0in;
   padding-top: 0in;
   padding-bottom: 0in !important;
@@ -370,6 +370,8 @@ ol {
     list-style-type: upper-roman;
     padding-left: 0.15in !important;
 }
+
+
 
 blockquote {
   margin-block-start: 0em  !important;

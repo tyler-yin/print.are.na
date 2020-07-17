@@ -189,9 +189,10 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         {hasAboutPage && (
           <>
             <SectionPage title="About" />
-            <AboutPage
+            about <br /> here
+            {/* <AboutPage
               description={channel.metadata && channel.metadata.description}
-            />
+            /> */}
           </>
         )}
 
