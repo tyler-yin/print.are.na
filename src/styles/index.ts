@@ -30,7 +30,7 @@ const Style = createGlobalStyle`
 
   .📖-running-header {
     position: absolute;
-    bottom: 0.25in !important;
+    bottom: 0in !important;
     min-height: 0.3in;
     pointer-events: none;
     text-align: center;
