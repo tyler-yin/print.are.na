@@ -199,7 +199,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         {hasTOC && options.toc && (
           <>
             <div className="toc-start" />
-            <SectionPage title="Table of Dark Matters" />
+            <SectionPage title="Dictonary of Dark Matters" />
             <TableOfContents blocks={contents} />
           </>
         )}

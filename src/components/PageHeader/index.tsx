@@ -9,9 +9,10 @@ const Container = styled.div<{ isRight: boolean }>`
   justify-content: ${props => (props.isRight ? "flex-end" : "flex-start")};
   font-size: 10pt;
   pointer-events: none;
-  font-weight: bold;
+  // font-weight: bold;
   position: absolute;
   bottom: 0.15in;
+  font-family: "Special Elite", cursive;
 `
 
 interface PageHeaderProps {

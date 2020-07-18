@@ -49,6 +49,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Windsor Cond Bold';
+    src: url('../../fonts/WindsorBQ-Elongated.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Windsor Cond Light';
+    src: url('../../fonts/WindsorEF-LightCondensed.otf');
+    font-style: normal;
+}
+
 
 
 /* tristian */
@@ -172,6 +184,12 @@
   -webkit-text-stroke-color: #000;
 }
 
+/* lauren m. */
+.author173730.authorstyle {
+  font-family: Arial;
+  color: #FF00FF;
+}
+
 
 /* ———————————————————————————— */
 
@@ -238,11 +256,7 @@
 }
 
 
-/* lauren */
-.author173730.authorstyle {
-  font-family: Arial Black;
-  color: orange;
-}
+
 
 /* zai */
 .author88210.authorstyle {
@@ -322,10 +336,16 @@ p ol {
 
 
 .neutral  {
-  font-family: 'Berthold Medium';
+  font-family: "Special Elite", cursive;
+  /* letter-spacing: .5px; */
+  /* font-size: 16pt; */
+
+  /* font-family: 'Berthold Medium'; */
+  font-size: 12pt;
+  /* font-weight: bold; */
+
   color: #000;
   font-style: none !important;
-  font-size: 12pt;
   font-weight: bold;
   /* padding-top: 0.25in; */
   line-height: 1.25;
@@ -341,10 +361,16 @@ p ol {
 }
 
 .page-header  {
-  font-family: 'Berthold Medium';
+  /* font-family: 'Berthold Medium'; */
+  font-size: 16pt !important;
+
+  /* letter-spacing: .5px; */
+  font-family: "Special Elite", cursive;
+  /* font-size: 20pt !important; */
+
   color: #000;
   font-style: none !important;
-  font-size: 16pt !important;
+
   font-weight: bold;
   -webkit-text-fill-color:  none !important;
  -webkit-text-stroke-width: 0px !important;

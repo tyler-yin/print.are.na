@@ -10,6 +10,7 @@ const Style = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    // background-image: url('/dmd-bg.png') !important;
   }
 
   ol {
