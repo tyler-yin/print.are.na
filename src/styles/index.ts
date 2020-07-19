@@ -3,8 +3,10 @@ import styled from "styled-components"
 
 const Style = createGlobalStyle`
   html {
-    font-family: 'Arial';
-    font-size: 13pt;
+    // font-family: 'Arial';
+    // font-size: 13pt;
+    font-size; 14pt;
+    font-family: "Special Elite", cursive;
   }
 
   body {

@@ -192,10 +192,11 @@ const CoverSpread: React.FC<CoverSpreadProps> = ({ channel, onClose }) => {
     <Container>
       <Interior pages={pageCount}>
         <Page>
-          <Logo />
+          Dictionary of Dark Matters
+          {/* <Logo />
           <URL>
             {`https://www.are.na/${channel.owner.slug}/${channel.slug}`}
-          </URL>
+          </URL> */}
         </Page>
         <Spine pages={pageCount}>
           <SpineTitleHolder pages={pageCount}>{channel.title}</SpineTitleHolder>

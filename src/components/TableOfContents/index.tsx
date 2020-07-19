@@ -7,6 +7,8 @@ import { PageBreak } from "styles/index"
 const Container = styled.div`
 // font-family: 'Berthold Medium';
 // font-size: 11pt;
+  font-size; 12pt;
+  font-family: "Special Elite", cursive;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -26,6 +28,7 @@ const Title = styled.span`
   max-width: 3in;
   text-overflow: ellipsis;
   overflow: hidden;
+  line-height: 1.3;
 `
 
 interface TableOfContentsProps {

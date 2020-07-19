@@ -190,11 +190,24 @@
   color: #FF00FF;
 }
 
+/* Heather */
+.author173830.authorstyle {
+  font-family: 'Redaction';
+  color: #ff008a;
+}
+
+
 
 /* ———————————————————————————— */
 
 /* makayla */
-.author102862 .authorstyle {
+.author102862.authorstyle {
+  font-family: Courier;
+  color: orange;
+}
+
+/* sus */
+.author173737.authorstyle {
   font-family: Courier;
   color: orange;
 }
@@ -362,7 +375,7 @@ p ol {
 
 .page-header  {
   /* font-family: 'Berthold Medium'; */
-  font-size: 16pt !important;
+  font-size: 14pt !important;
 
   /* letter-spacing: .5px; */
   font-family: "Special Elite", cursive;
