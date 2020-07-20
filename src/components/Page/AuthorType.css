@@ -61,6 +61,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../../fonts/FiraCode-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans Italic';
+    src: url('../../fonts/GillSansStd-Italic.otf');
+    font-style: normal;
+}
+
 
 
 /* tristian */
@@ -197,8 +209,32 @@
 }
 
 
+/* rahel */
+.author162734.authorstyle {
+  font-family: Georgia;
+  color: #000066;
+}
+
+
+/* sus */
+.author173737.authorstyle {
+  font-family: 'Gill Sans Italic';
+  color: #0511CF;
+}
+
+/* tyler */
+.author25047.authorstyle {
+  font-family: 'Fira Code';
+  color: #FF0000;
+}
+
+
+
 
 /* ———————————————————————————— */
+
+
+
 
 /* makayla */
 .author102862.authorstyle {
@@ -206,11 +242,7 @@
   color: orange;
 }
 
-/* sus */
-.author173737.authorstyle {
-  font-family: Courier;
-  color: orange;
-}
+
 
 
 
@@ -226,12 +258,6 @@
   color: blue;
 }
 
-/* tyler */
-.author25047.authorstyle {
-  font-family: Arial;
-  color: orange;
-}
-
 
 
 
@@ -243,11 +269,6 @@
 
 
 
-/* rahel */
-.author162734.authorstyle {
-  font-family: Times;
-  color: orange;
-}
 
 /* bronte */
 .author173511.authorstyle {
