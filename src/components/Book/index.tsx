@@ -18,6 +18,7 @@ import Page from "components/Page"
 import SectionPage from "components/SectionPage"
 import AboutPage from "components/AboutPage"
 import TableOfContents from "components/TableOfContents"
+import Contributors from "components/Contributors"
 import TitlePage from "components/TitlePage"
 import Notice from "components/Notice"
 import { NoticeContainer } from "components/NoticeContainer"
@@ -209,6 +210,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         {contents.map(b => (
           <Page block={b} key={b.id} options={options} />
         ))}
+        <Contributors blocks={contents} />
       </BookContainer>
     </>
   )
@@ -238,7 +240,7 @@ const BookWrapper: React.FC<BookWrapperProps> = ({
   useEffect(() => {
     if (!channel) {
       api
-        .getFullChannel(slug, {
+        .getFullChannel("dark-matters-dictionary", {
           onGetTotal: setTotalPages,
           isShare: options.isShare,
           reverse: options.reverse,

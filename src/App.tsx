@@ -15,7 +15,7 @@ function App() {
       <Style />
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Book} />
           <Route exact path="/book/:slug" component={Book} />
           <Route exact path="/error/:error" component={Error} />
           <Route exact path="/demo" component={Demo} />

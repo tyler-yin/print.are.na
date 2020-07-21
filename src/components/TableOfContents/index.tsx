@@ -5,9 +5,9 @@ import { Block } from "../../types"
 import { PageBreak } from "styles/index"
 
 const Container = styled.div`
-// font-family: 'Berthold Medium';
-// font-size: 11pt;
-  font-size; 12pt;
+  /* font-family: 'Berthold Medium'; */
+  /* font-size: 11pt; */
+  font-size: 12pt;
   font-family: "Special Elite", cursive;
   display: flex;
   height: 100%;

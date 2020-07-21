@@ -49,6 +49,7 @@ export interface Block {
   user: {
     username: string
     id: number
+    full_name: string
   }
 }
 

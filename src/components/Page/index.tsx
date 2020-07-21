@@ -30,7 +30,7 @@ const Img = styled.img`
   max-height: calc(var(--bindery-page-height) - 2.25in);
   display: block;
   flex: 1;
-  clear:both;
+  clear: both;
   margin: 0 auto;
   height: auto;
   object-fit: contain;
@@ -112,7 +112,6 @@ const Description = styled.div`
     pointer-events: all;
   }
 
-
   > p:first-child {
     margin: 0;
   }
@@ -146,13 +145,15 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
       ? block.description_html.length > LONG_IMAGE_DESCRIPTION_THRESHOLD
       : block.description_html.length > DESCRIPTION_THRESHOLD
 
+  console.log(block.user.full_name)
+
   return (
     <ContainerWithMargin
       className={"page text authorstyle author" + block.user.id.toString()}
     >
       <HiddenTitle>{block.title}</HiddenTitle>
 
-      <Header title={block.title} id={block.id}/>
+      <Header title={block.title} id={block.id} />
 
       {block.hasImage && <Img src={block.imageUrl} alt={block.title} />}
 
@@ -199,7 +200,7 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
           )}
 
         {options.author && (
-          <div className="neutral">— contributed by {block.connected_by_username}</div>
+          <div className="neutral">— contributed by {block.user.full_name}</div>
         )}
       </Description>
 

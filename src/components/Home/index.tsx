@@ -81,7 +81,9 @@ const Button = styled.button`
 
 const Home: React.FC = ({ ...props }) => {
   const history = useHistory()
-  const [url, setUrl] = useState<string | null>("")
+  const [url, setUrl] = useState<string | null>(
+    "https://www.are.na/dark-matters/dark-matters-dictionary"
+  )
   const [options, setOptions] = useState<URLOptions>({
     author: true,
     source: true,
