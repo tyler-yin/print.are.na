@@ -207,9 +207,16 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
 
         <div className="contents-start" />
 
-        {contents.map(b => (
-          <Page block={b} key={b.id} options={options} />
-        ))}
+        {contents.map((b, i) =>
+          i % 20 === 0 ? (
+            <Page block={b} key={b.id} options={options} />
+          ) : (
+            <>
+              <div>wow!</div>
+              <Page block={b} key={b.id} options={options} />
+            </>
+          )
+        )}
         <Contributors blocks={contents} />
       </BookContainer>
     </>

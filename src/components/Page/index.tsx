@@ -6,6 +6,7 @@ import Header from "components/Header"
 import { PageBreak } from "styles/index"
 
 import "./AuthorType.css"
+import "./CustomPage.css"
 
 import { Block, URLOptions } from "../../types"
 
@@ -149,7 +150,13 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
 
   return (
     <ContainerWithMargin
-      className={"page text authorstyle author" + block.user.id.toString()}
+      className={
+        "page text authorstyle author" +
+        block.user.id.toString() +
+        " " +
+        "block" +
+        block.id.toString()
+      }
     >
       <HiddenTitle>{block.title}</HiddenTitle>
 

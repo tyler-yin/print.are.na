@@ -30,10 +30,12 @@ interface LoadingPageProps {
 }
 
 const LoadingPage: React.FC<LoadingPageProps> = ({ slug, totalPages }) => {
+  let newSlug = slug ? slug : "Dark Matters Dictionary"
+
   return (
     <Container className="page">
       <Title>
-        Converting channel <Slug>{slug}</Slug> into a book...
+        Converting channel <Slug>{newSlug}</Slug> into a book...
       </Title>
       {totalPages && (
         <>
