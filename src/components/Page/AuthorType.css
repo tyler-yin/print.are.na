@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
 
 
 
@@ -228,6 +229,26 @@
   color: #FF0000;
 }
 
+/* makshya */
+.author173495.authorstyle {
+  font-family: Helvetica;
+  color: #F5C4C0;
+  /* font-weight: bold; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e09d98;
+}
+
+
+/* .author173495.authorstyle {
+  font-style: normal;
+  font-family: Helvetica;
+  color: #000;
+}
+.author173495.authorstyle p p,
+.author173495.authorstyle li {
+  background-color: #F5C4C0;
+} */
+
 
 
 
@@ -248,8 +269,10 @@
 
 /* matt ross */
 .author126808.authorstyle {
-  font-family: Arial;
-  color: red;
+  font-family: 'Roboto Mono', monospace;
+  color: #556b2f;
+} .author126808.authorstyle p {
+  font-style: italic;
 }
 
 /* ilona */
