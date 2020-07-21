@@ -207,7 +207,8 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
 
         <div className="contents-start" />
 
-        {contents.map((b, i) =>
+        {/* Here's how you might do custom inserts 
+{contents.map((b, i) =>
           i % 20 === 0 ? (
             <Page block={b} key={b.id} options={options} />
           ) : (
@@ -217,6 +218,12 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </>
           )
         )}
+        
+*/}
+
+        {contents.map((b, i) => (
+          <Page block={b} key={i} options={options} />
+        ))}
         <Contributors blocks={contents} />
       </BookContainer>
     </>
