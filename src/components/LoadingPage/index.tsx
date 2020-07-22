@@ -35,11 +35,12 @@ const LoadingPage: React.FC<LoadingPageProps> = ({ slug, totalPages }) => {
   return (
     <Container className="page">
       <Title>
-        Converting channel <Slug>{newSlug}</Slug> into a book...
+        Loading the Dictionary of Dark Matters...
+        {/* Converting channel <Slug>{newSlug}</Slug> into a book... */}
       </Title>
       {totalPages && (
         <>
-          <Title>Creating {totalPages * 50} pages...</Title>
+          {/* <Title>Creating {totalPages * 50} pages...</Title> */}
         </>
       )}
     </Container>
