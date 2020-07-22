@@ -12,6 +12,7 @@ const Style = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    background: #fff0d9;
     // background-image: url('/dmd-bg.png') !important;
   }
 
@@ -27,6 +28,9 @@ const Style = createGlobalStyle`
     margin-right: 0;
   }
 
+  .📖-root, .📖-zoom-content {
+    background: #fff0d9 !important;
+  }
   .📖-root .book-container {
     opacity: 1;
   }
