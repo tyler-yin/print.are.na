@@ -185,12 +185,12 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         />
       )}
       <BookContainer className="book-container" ref={bookRef}>
-        <TitlePage title={channel.title} author={author} channel={channel} />
+        <TitlePage title="Dictonary of Dark Matters" author=" " channel={channel} />
 
         {hasAboutPage && (
           <>
-            <SectionPage title="About" />
-            about <br /> here
+            <SectionPage title=" " />
+            {/* about <br /> here */}
             {/* <AboutPage
               description={channel.metadata && channel.metadata.description}
             /> */}
@@ -207,7 +207,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
 
         <div className="contents-start" />
 
-        {/* Here's how you might do custom inserts 
+        {/* Here's how you might do custom inserts
 {contents.map((b, i) =>
           i % 20 === 0 ? (
             <Page block={b} key={b.id} options={options} />
@@ -218,7 +218,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </>
           )
         )}
-        
+
 */}
 
         {contents.map((b, i) => (

@@ -4,6 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+
 
 
 
@@ -73,6 +76,21 @@
     src: url('../../fonts/GillSansStd-Italic.otf');
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('../../fonts/franklinGothic.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Olive';
+    src: url('../../fonts/Olive_DEMO.otf');
+    font-style: normal;
+}
+
+
 
 
 
@@ -251,21 +269,11 @@
 
 
 
-
-/* ———————————————————————————— */
-
-
-
-
-/* makayla */
-.author102862.authorstyle {
-  font-family: Courier;
+/* american */
+.author134492.authorstyle {
+  font-family: 'Franklin Gothic';
   color: orange;
 }
-
-
-
-
 
 /* matt ross */
 .author126808.authorstyle {
@@ -277,21 +285,40 @@
 
 /* ilona */
 .author72134.authorstyle {
-  font-family: Arial;
-  color: blue;
+  font-family: 'Kavivanar', cursive;
+  color: #CC7722;
+}
+
+
+/* zai */
+.author88210.authorstyle {
+  font-family: 'Kavivanar', cursive;
+  color: #0000EE;
+}
+
+
+/* lluvia */
+.author160124.authorstyle {
+  font-family: 'Olive';
+  color: #33D7FF;
 }
 
 
 
+/* ———————————————————————————— */
+
+
+/* makayla */
+.author102862.authorstyle {
+  font-family: Courier;
+  color: orange;
+}
 
 /* david */
 .author37613.authorstyle {
   font-family: Georgia;
   color: purple;
 }
-
-
-
 
 /* bronte */
 .author173511.authorstyle {
@@ -303,22 +330,6 @@
 .author173505.authorstyle {
   font-family: Arial;
   color: green;
-}
-
-
-/* lluvia */
-.author160124.authorstyle {
-  font-family: Times;
-  color: purple;
-}
-
-
-
-
-/* zai */
-.author88210.authorstyle {
-  font-family: Optima;
-  color: red;
 }
 
 /* lauren */
