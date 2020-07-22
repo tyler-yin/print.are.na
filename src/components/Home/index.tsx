@@ -133,7 +133,7 @@ const Home: React.FC = ({ ...props }) => {
   return (
     <Container>
       <Top>
-        <Title>print.are.na</Title>
+        <Title>Dictionary of Dark Matters</Title>
         <Form onSubmit={onSubmit}>
           <Instructions>
             <Text>
