@@ -474,3 +474,7 @@ blockquote {
     margin-inline-end: 0px !important;
     font-style: italic;
 }
+
+.📖-controls {
+  opacity: 0;
+}
