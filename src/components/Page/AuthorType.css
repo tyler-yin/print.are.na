@@ -90,6 +90,35 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Parabole Trial';
+    src: url('../../fonts/ParaboleTrial-Regular.otf');
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Daniel';
+    src: url('../../fonts/danielbd.ttf');
+    font-style: normal;
+}
+
+
+
+
+
+
+/* american */
+.author134492.authorstyle, .author134492 {
+  font-family: 'Parabole Trial';
+  color: #7500DB;
+}
+
+/* zai */
+.author88210.authorstyle, .author88210 {
+  font-family: 'Kavivanar', cursive;
+  color: #0000EE;
+}
 
 
 
@@ -121,6 +150,7 @@
   color: #000;
 }
 .author173746.authorstyle p p,
+span.author173746.authorstyle ,
 .author173746.authorstyle li {
   background-color: #c9f2f2;
 }
@@ -269,11 +299,7 @@
 
 
 
-/* american */
-.author134492.authorstyle {
-  font-family: 'Franklin Gothic';
-  color: orange;
-}
+
 
 /* matt ross */
 .author126808.authorstyle {
@@ -290,17 +316,11 @@
 }
 
 
-/* zai */
-.author88210.authorstyle {
-  font-family: 'Kavivanar', cursive;
-  color: #0000EE;
-}
-
 
 /* lluvia */
 .author160124.authorstyle {
-  font-family: 'Olive';
-  color: #33D7FF;
+  font-family: 'Daniel';
+  color: #E4007C;
 }
 
 
@@ -310,32 +330,32 @@
 
 /* makayla */
 .author102862.authorstyle {
-  font-family: Courier;
-  color: orange;
+  font-family: Arial;
+  color: #000;
 }
 
 /* david */
 .author37613.authorstyle {
-  font-family: Georgia;
-  color: purple;
+  font-family: Arial;
+  color: #000;
 }
 
 /* bronte */
 .author173511.authorstyle {
   font-family: Arial;
-  color: blue;
+  color: #000;
 }
 
 /* leanne */
 .author173505.authorstyle {
   font-family: Arial;
-  color: green;
+  color: #000;
 }
 
 /* lauren */
 .author17810.authorstyle {
-  font-family: Times;
-  color: green;
+  font-family: Arial;
+  color: #000;
 }
 
 
@@ -354,19 +374,25 @@ a {
     margin-block-end: 0in !important;
 } */
 
+p {
+  mix-blend-mode: multiply;
+}
 .description {
   border-left: .03in solid #000;
   /* margin-top: 0.25in; */
   /* font-size: calc(1em * 0.75); */
 }
 
+img {
+  margin-bottom: 0.25in !important;
+}
 p.description{
   font-size: 14pt;
   padding-left: .2in;
   padding-top: .05in;
   padding-bottom: .05in !important;
   line-height: 1.3;
-  margin-block-start: 0.25in !important;
+  margin-block-start: 0in !important;
   margin-block-end: 0.25in !important;
   display: block;
   margin-bottom: 0in;
@@ -409,7 +435,8 @@ p ol {
   /* font-size: 16pt; */
 
   /* font-family: 'Berthold Medium'; */
-  font-size: 12pt;
+  /* font-size: 12pt; */
+  font-size: 10pt;
   /* font-weight: bold; */
 
   color: #000;
@@ -430,7 +457,8 @@ p ol {
 
 .page-header  {
   /* font-family: 'Berthold Medium'; */
-  font-size: 14pt !important;
+  /* font-size: 14pt !important; */
+  font-size: 12pt !important;
 
   /* letter-spacing: .5px; */
   font-family: "Special Elite", cursive;
@@ -475,6 +503,13 @@ blockquote {
     font-style: italic;
 }
 
+.contributors {
+  font-size: 18pt;
+  line-height: 18pt;
+
+}
+
 .📖-controls {
   opacity: 0;
+
 }

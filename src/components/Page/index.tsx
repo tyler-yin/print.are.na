@@ -154,10 +154,13 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
         "page text authorstyle author" +
         block.user.id.toString() +
         " " +
-        "block" +
+        "page" +
         block.id.toString()
       }
     >
+      <div className={"block block" +
+      block.id.toString()}></div>
+
       <HiddenTitle>{block.title}</HiddenTitle>
 
       <Header title={block.title} id={block.id} />

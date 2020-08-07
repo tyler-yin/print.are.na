@@ -1,5 +1,66 @@
-.block7458283 {
-  /* background-color: lightblue; */
-  /* background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/1583787/large_e8e917e5800f421b0f4a4ae6b08eed30.png?1515618455?bc=1");
-  background-size: contain; */
+.📖-left .block  {
+    left: -.35in;
+}
+
+.📖-right .block  {
+    left: -.65in;
+}
+
+.center {
+  text-align: center;
+  /* margin-top: 1in;
+  margin-bottom: -1in; */
+}
+
+.margin-top {
+  margin-top: 1in;
+  display: block;
+}
+
+.About {
+  font-size: 15.5pt;
+  line-height: 1.3;
+}
+
+.About u {
+  text-decoration-style: dotted;
+}
+
+sup.wordinline {
+  font-family: "Special Elite", cursive;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+
+/* hide alphabet page metadata */
+.page8046964 .neutral, .page8046964 .page-header {
+  display: none;
+}
+
+
+.block {
+  mix-blend-mode: multiply;
+  width: 5.5in;
+  height: 8.5in !important;
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  /* left: -.35in; */
+  top: -.3in;
+  /* background-size: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.📖-flow-box {
+  mix-blend-mode: multiply;
+}
+
+.block7531586 {
+  background-image: url("../../overlays/tyleryin-environmental_injustice.png");
+}
+
+.block8008214 {
+  background-image: url("../../overlays/tyleryin-environmental_injustice-2.png");
 }

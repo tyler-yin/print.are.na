@@ -5,28 +5,30 @@ import { Block } from "../../types"
 import { PageBreak } from "styles"
 
 const Container = styled.div`
-  font-size: 12pt;
-  font-family: "Special Elite", cursive;
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  text-transform: capitalize;
+  // font-size: 22pt;
+  // font-family: "Special Elite", cursive;
+  // display: flex;
+  // height: 100%;
+  // flex-direction: column;
+  // text-transform: capitalize;
 `
 
 const ContentsLine = styled.a`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-decoration: none;
-  color: black;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // text-decoration: none;
+  // color: black;
 `
 
 const Title = styled.span`
   margin-right: 0.175in;
-  max-width: 3in;
+  // max-width: 4.5in;
   text-overflow: ellipsis;
   overflow: hidden;
   line-height: 1.3;
+  display: inline-block;
+  text-align: center;
 `
 
 interface ContributorsProps {
@@ -38,7 +40,8 @@ const Contributors: React.FC<ContributorsProps> = ({ blocks }) => {
   let lastName = ""
 
   return (
-    <Container className="page toc-page">
+    <Container className="page toc-page center">
+      <div className="margin-top"></div>
       {blocksWithNames
         .filter(
           (v, i, a) =>
@@ -53,7 +56,9 @@ const Contributors: React.FC<ContributorsProps> = ({ blocks }) => {
         .map(b => {
           return (
             b.user.full_name !== lastName && (
-              <Title dangerouslySetInnerHTML={{ __html: b.user.full_name }} />
+
+              <Title className={"contributors authorstyle author" + b.user.id.toString()} dangerouslySetInnerHTML={{ __html: b.user.full_name }} />
+
             )
           )
         })}
