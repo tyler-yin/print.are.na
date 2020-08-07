@@ -280,7 +280,6 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </p>
 
             <p className="About">
-
               <span className="author134492">pandemic, </span>
               <span className="author88210">the ongoing movement for Black </span>
               <span className="author88210"> Lives </span>
@@ -333,8 +332,11 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </p>
 
             <p className="About">
-              <span className="author134492">We would like to thank the School for Poetic Computation for holding space for us and Lauren Gardner for her immense support. A special thanks to Ingrid Burrington, Simone Browne, Zach Blas, Rashida Richardson, Stephanie Dinkins and Tsige Tafesse for joining our students in conversation throughout the term</span>
-              <span className="author88210">; and to Callil Capuozzo and Are.na for supporting our developing publication. </span>
+              <span className="author134492">We would like to thank the School for Poetic Computation for holding space for us and Lauren Gardner for her immense support. A special thanks to Ingrid Burrington, Simone Browne, Zach Blas, Rashida Richardson, Stephanie Dinkins and Tsige Tafesse for joining our students in conversation throughout the term.</span>
+            </p>
+
+            <p className="About">
+              <span className="author88210">This book was designed by Zainab Aliyu, edited by Jessica Rajko and all individual contributors, and assembled with the support of Are.na, Callil Capuozzo and American Artist. </span>
             </p>
 
             <p className="About">

@@ -27,10 +27,10 @@ const Style = createGlobalStyle`
     margin-left: 0;
     margin-right: 0;
   }
-
-  .📖-root, .📖-zoom-content {
-    background: #fff0d9 !important;
-  }
+  //
+  // .📖-root, .📖-zoom-content {
+  //   background: #fff0d9 !important;
+  // }
   .📖-root .book-container {
     opacity: 1;
   }
