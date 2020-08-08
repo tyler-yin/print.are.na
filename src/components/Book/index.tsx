@@ -389,7 +389,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </p>
 
             <p className="About">
-              <span className="author88210">This book was designed by Zainab Aliyu, edited by Jessica Rajko and all individual contributors, and assembled with the support of Are.na, Callil Capuozzo and American Artist. </span>
+              <span className="author88210">This book was designed by   edited by  , and assembled with the support of Are.na and Callil Capuozzo. </span>
             </p>
 
             <p className="About">
