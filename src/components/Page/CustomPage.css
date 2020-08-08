@@ -169,6 +169,14 @@ blockquote {
 }
 
 
+.Asterisk {
+  text-indent: -.12in;
+  /* margin-left: .05in; */
+  line-height: 1;
+  font-size: 15.5pt;
+}
+
+
 .About u {
   text-decoration-style: dotted;
 }
@@ -200,10 +208,6 @@ sup.wordinline {
   color: #000 !important;
 }
 
-.asterisk {
-  text-indent: -.15in;
-  margin-left: .15in;
-}
 
 /* hide alphabet page metadata */
 .page8263332 .neutral, .page8263332 .page-header,

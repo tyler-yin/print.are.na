@@ -234,8 +234,8 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
                   <div className="contributors authorstyle author88210">Zainab Aliyu<sup className="wordinline">*</sup></div>
               </div>
 
-              <p className="About">
-                <span className="sc-fzqBZW kjNSqW asterisk neutral">* Asterisk indicates that the contributor also has illustrations sprinkled throughout book in the color of their name.</span>
+              <p className="Asterisk">
+                <span className="neutral">* Asterisk indicates that the contributor also has illustrations sprinkled throughout book in the color of their name.</span>
               </p>
 
               <Contributors blocks={contents} />
