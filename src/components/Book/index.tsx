@@ -187,12 +187,64 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
       <BookContainer className="book-container" ref={bookRef}>
         <TitlePage title="Dictionary of Dark Matters" author=" " channel={channel} />
 
+        <SectionPage title="" />
+        <SectionPage title="Dictionary of Dark Matters" />
+
+
         {hasAboutPage && (
             <>
             <SectionPage title="Contributors" />
-            <Contributors blocks={contents} />
+            {/* <Contributors blocks={contents} /> */}
+
+              {/* <div className="margin-top"></div> */}
+
+              <div className="center">
+                  <div className="contributors authorstyle author134492">American Artist</div>
+                  <div className="contributors authorstyle author173746"><span className="contrib">angus fletcher</span></div>
+                  <div className="contributors authorstyle author173511">brontë velez</div>
+                  <div className="contributors authorstyle author173508">Cameron Granger</div>
+                  <div className="contributors authorstyle author13842">connor trotter</div>
+                  <div className="contributors authorstyle author37613">David Lisbon</div>
+                  <div className="contributors authorstyle author173746">Diana Marin</div>
+                  <div className="contributors authorstyle author173830">Heather Snyder Quinn</div>
+                  <div className="contributors authorstyle author72134">ilona altman</div>
+                  <div className="contributors authorstyle author173499">Jessica Rajko</div>
+                  <div className="contributors authorstyle author173500">Kevin He</div>
+                  <div className="contributors authorstyle author173503">Krystal Maughan</div>
+                  <div className="contributors authorstyle author17810">Lauren Gardner</div>
+                  <div className="contributors authorstyle author173730">Lauren Monzon</div>
+                  <div className="contributors authorstyle author173505">LeAnne Wagner</div>
+                  <div className="contributors authorstyle author173501">Lissa Aguilar</div>
+                  <div className="contributors authorstyle author160124">Lluvia Nisaye</div>
+                  <div className="contributors authorstyle author102862">Makayla Bailey</div>
+                  <div className="contributors authorstyle author173495">Makshya Tolbert</div>
+                  <div className="contributors authorstyle author126808">Matt Ross</div>
+                  <div className="contributors authorstyle author173613">Miranda Shou</div>
+                  <div className="contributors authorstyle author173502">Paras Sanghavi</div>
+                  <div className="contributors authorstyle author162734">rahel aima</div>
+                  <div className="contributors authorstyle author23411">Ryan Patterson</div>
+                  <div className="contributors authorstyle author173494">Sara K.R.</div>
+                  <div className="contributors authorstyle author173737">Sus Labowitz<sup className="wordinline">*</sup></div>
+                  <div className="contributors authorstyle author159845">Tash Nikol Smith</div>
+                  <div className="contributors authorstyle author173506">Teresa Snider-Stein</div>
+                  <div className="contributors authorstyle author7454">Timur Fattahov</div>
+                  <div className="contributors authorstyle author173534">Trevor Tatham</div>
+                  <div className="contributors authorstyle author173504">Tristan Sauer</div>
+                  <div className="contributors authorstyle author25047">Tyler Yin<sup className="wordinline">*</sup></div>
+                  <div className="contributors authorstyle author88210">Zainab Aliyu<sup className="wordinline">*</sup></div>
+              </div>
+
+              <p className="About">
+                <span className="sc-fzqBZW kjNSqW asterisk neutral">* Asterisk indicates that the contributor also has illustrations sprinkled throughout book in the color of their name.</span>
+              </p>
+
+              <Contributors blocks={contents} />
+
+
 
             <SectionPage title="About" />
+
+
 
 
 
@@ -245,7 +297,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">and imagining of an unsovereign technology. </span>
               <span className="author134492">Over the four </span>
               <span className="author88210">sessions </span>
-              <span className="author134492">that this class has been taught we have introduced authors to the curriculum such as Jackie Wang, David N. Pellow, Lisa Sun-Hee Park, and Ruha Benjamin. </span>
+              <span className="author134492">that this class has been taught, we have introduced authors to the curriculum such as Jackie Wang, David N. Pellow, Lisa Sun-Hee Park and Ruha Benjamin. </span>
               <span className="author88210">Selected work by these authors hold </span>
               <span className="author134492">the origins of the <u>interface</u> </span>
               <sup className="wordinline">100 </sup>
@@ -290,6 +342,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">various </span>
               <span className="author88210">academic institutions and places of work </span>
               <span className="author134492">(including our own) for their perpetuation of <u>anti-blackness</u>.  </span>
+              <sup className="wordinline">100 </sup>
               <span className="author134492">These issues framed all of our </span>
               <span className="author88210">conversations and largely </span>
               <span className="author134492">informed our <u>communal ethic</u> </span>

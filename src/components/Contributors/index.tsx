@@ -41,8 +41,8 @@ const Contributors: React.FC<ContributorsProps> = ({ blocks }) => {
 
   return (
     <Container className="page toc-page center">
-      <div className="margin-top"></div>
-      {blocksWithNames
+      {/* <div className="margin-top"></div> */}
+      {/* {blocksWithNames
         .filter(
           (v, i, a) =>
             a.findIndex(t => t.user.full_name === v.user.full_name) === i
@@ -61,8 +61,8 @@ const Contributors: React.FC<ContributorsProps> = ({ blocks }) => {
 
             )
           )
-        })}
-      <PageBreak />
+        })} */}
+      {/* <PageBreak /> */}
     </Container>
   )
 }

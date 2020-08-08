@@ -18,6 +18,7 @@ const Container = styled.div`
   padding: 2em;
   align-items: flex-start;
   justify-content: flex-start;
+  color: #fff;
 `
 
 const Slug = styled.span`
