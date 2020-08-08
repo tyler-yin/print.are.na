@@ -13,7 +13,7 @@ const Style = createGlobalStyle`
     margin: 0;
     padding: 0;
     // background: #fff0d9;
-    background: #000;
+    // background: #000;
     // background-image: url('/dmd-bg.png') !important;
   }
 
@@ -31,7 +31,7 @@ const Style = createGlobalStyle`
 
   .📖-root, .📖-zoom-content {
     // background: #fff0d9 !important;
-    background: #000 !important;
+    // background: #000 !important;
   }
 
   .📖-root .book-container {
