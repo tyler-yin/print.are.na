@@ -185,7 +185,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         />
       )}
       <BookContainer className="book-container" ref={bookRef}>
-        <TitlePage title="Dictionary of Dark Matters" author=" " channel={channel} />
+        <TitlePage title="testing cover" author=" " channel={channel} />
 
         <SectionPage title="" />
         <SectionPage title="Dictionary of Dark Matters" />
@@ -251,18 +251,18 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
 
             <p className="About">
               <span className="author88210">Welcome to the Dictionary of <u>Dark Matters</u>.</span>
-              <sup className="wordinline">100</sup>
+              <sup className="wordinline">186</sup>
               <span className="author88210"> During the Summer of 2020, Dark Matters was taught by </span>
               <span className="author134492">American Artist with the assistance of Zainab Aliyu. </span>
               <span className="author88210">For ten weeks, we stewarded</span>
               <span className="author134492"> and taught </span>
               <span className="author88210">this class over </span>
               <span className="author134492">the video platform <u>Zoom</u>. </span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">559 </sup>
               <span className="author88210"> Thirty-two students </span>
               <span className="author134492">convened over and through national borders </span>
               <span className="author88210">to <u>study</u> </span>
-              <sup className="wordinline">100</sup>
+              <sup className="wordinline">482</sup>
               <span className="author88210"> alongside us and with one another. We engaged in intimate practices of unlearning, deep listening and reflection. Most importantly, we studied “under the university,” a framing we borrow from theorist</span>
               <span className="author134492">s </span>
               <span className="author88210">Fred Moten </span>
@@ -271,26 +271,26 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
 
             <p className="About">
               <span className="author134492">The class, titled Dark Matters: <i>On Blackness, <u>Surveillance</u></i>,</span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">487 </sup>
               <span className="author134492"> <i>and the Whiteness of the Screen</i>, takes it's namesake from Simone Browne's book <i>Dark Matters: On the Surveillance of Blackness</i>. </span>
               <span className="author88210">This critical text winds </span>
               <span className="author134492">personal, political and pop-cultural narratives of <u>racial gaze</u></span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">442 </sup>
               <span className="author134492"> and <u>sousveillance </u></span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">476 </sup>
               <span className="author134492"> to address the origins of so many recurring dynamics of power that operate through high technology. The readings in our class began with Wendy Chun's critique of </span>
               <span className="author88210"><u>software</u> </span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">473 </sup>
               <span className="author88210">and </span>
               <span className="author134492"><u>ideology</u>'s </span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">313 </sup>
               <span className="author134492">tendencies towards</span>
 
             </p>
 
             <p className="About">
               <span className="author134492"><u>obfuscation</u>, </span>
-              <sup className="wordinline">100 </sup>
+              <sup className="wordinline">386 </sup>
               <span className="author88210">as well as </span>
               <span className="author134492">American Artist's <u>Black Gooey Universe</u> </span>
               <sup className="wordinline">100 </sup>

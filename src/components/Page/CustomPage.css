@@ -290,6 +290,11 @@ sup.wordinline {
   mix-blend-mode: multiply;
 }
 
+.covertitle {
+  /* background-image: url("../../overlays/cover.jpg"); */
+}
+
+
 .block7531586 {
   background-image: url("../../overlays/tyleryin-environmental_injustice.png");
 }

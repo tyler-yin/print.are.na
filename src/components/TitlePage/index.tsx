@@ -34,6 +34,7 @@ interface TitlePageProps {
 const TitlePage: React.FC<TitlePageProps> = ({ title, author, channel }) => {
   return (
     <Container className="page">
+      <div className="block covertitle"></div>
       <Title>{title}</Title>
       <div>
         <Author>{author}</Author>
