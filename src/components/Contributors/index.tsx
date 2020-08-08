@@ -62,7 +62,7 @@ const Contributors: React.FC<ContributorsProps> = ({ blocks }) => {
             )
           )
         })} */}
-      {/* <PageBreak /> */}
+      <PageBreak />
     </Container>
   )
 }
