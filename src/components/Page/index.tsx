@@ -159,6 +159,7 @@ const Page: React.FC<PageProps> = ({ block, options }) => {
       }
     >
       <div className={"block block" +
+      block.id.toString()} id={"block" +
       block.id.toString()}></div>
 
       <HiddenTitle>{block.title}</HiddenTitle>

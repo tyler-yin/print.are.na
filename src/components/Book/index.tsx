@@ -310,7 +310,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">the <u>white racial frame</u>, </span>
               <sup className="wordinline">100 </sup>
               <span className="author134492">and other </span>
-              <span className="author88210">global practices that are deeply rooted in American imperial history.</span>
+              <span className="author88210">global practices that are deeply rooted in American colonial history.</span>
             </p>
 
             <p className="About">
