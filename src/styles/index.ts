@@ -2,6 +2,15 @@ import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
 
 const Style = createGlobalStyle`
+
+.cover {
+  background: #000;
+}
+
+:root {
+     --bindery-ui-bg: #000;
+}
+
   html {
     // font-family: 'Arial';
     // font-size: 13pt;

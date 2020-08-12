@@ -34,7 +34,7 @@ const LoadingPage: React.FC<LoadingPageProps> = ({ slug, totalPages }) => {
   let newSlug = slug ? slug : "Dark Matters Dictionary"
 
   return (
-    <Container className="page">
+    <Container className="page cover">
       <Title>
         Loading the Dictionary of Dark Matters...
         {/* Converting channel <Slug>{newSlug}</Slug> into a book... */}
