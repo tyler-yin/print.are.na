@@ -185,7 +185,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         />
       )}
       <BookContainer className="book-container" ref={bookRef}>
-        <TitlePage title="testing cover" author=" " channel={channel} />
+        <TitlePage title="" author=" " channel={channel} />
 
         <SectionPage title="" />
         <SectionPage title="Dictionary of Dark Matters" />
@@ -225,11 +225,11 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
                   <div className="contributors authorstyle author23411">Ryan Patterson</div>
                   <div className="contributors authorstyle author173494">Sara K.R.</div>
                   <div className="contributors authorstyle author173737">Sus Labowitz<sup className="wordinline">*</sup></div>
-                  <div className="contributors authorstyle author159845">Tash Nikol Smith</div>
+                  <div className="contributors authorstyle author159845">Tash Nikol Smith<sup className="wordinline">*</sup></div>
                   <div className="contributors authorstyle author173506">Teresa Snider-Stein</div>
                   <div className="contributors authorstyle author7454">Timur Fattahov</div>
                   <div className="contributors authorstyle author173534">Trevor Tatham</div>
-                  <div className="contributors authorstyle author173504">Tristan Sauer</div>
+                  <div className="contributors authorstyle author173504">Tristan Sauer<sup className="wordinline">*</sup></div>
                   <div className="contributors authorstyle author25047">Tyler Yin<sup className="wordinline">*</sup></div>
                   <div className="contributors authorstyle author88210">Zainab Aliyu<sup className="wordinline">*</sup></div>
               </div>
@@ -389,7 +389,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
             </p>
 
             <p className="About">
-              <span className="author88210">This book was designed by   edited by  , and assembled with the support of Are.na and Callil Capuozzo. </span>
+              <span className="author88210">This book was designed by Zainab Aliyu (cover in collaboration with American Artist) edited by Jessica Rajko, and assembled with the support of Are.na, Callil Capuozzo, Tyler Yin and Sara K.R. </span>
             </p>
 
             <p className="About">
@@ -437,7 +437,11 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
         ))}
         {/* <SectionPage title="Contributors" />
         <Contributors blocks={contents} /> */}
+
+
       </BookContainer>
+
+
     </>
   )
 }
