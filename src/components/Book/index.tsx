@@ -205,13 +205,13 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
                   <div className="contributors authorstyle author173508">Cameron Granger</div>
                   <div className="contributors authorstyle author13842">connor trotter</div>
                   <div className="contributors authorstyle author37613">David Lisbon</div>
-                  <div className="contributors authorstyle author173746">Diana Marin</div>
+                  <div className="contributors authorstyle author173736">Diana Marin</div>
                   <div className="contributors authorstyle author173830">Heather Snyder Quinn</div>
                   <div className="contributors authorstyle author72134">ilona altman</div>
                   <div className="contributors authorstyle author173499">Jessica Rajko</div>
                   <div className="contributors authorstyle author173500">Kevin He</div>
                   <div className="contributors authorstyle author173503">Krystal Maughan</div>
-                  <div className="contributors authorstyle author17810">Lauren Gardner</div>
+                  <div className="contributors authorstyle author17810"><span className="contrib">Lauren Gardner</span></div>
                   <div className="contributors authorstyle author173730">Lauren Monzon</div>
                   <div className="contributors authorstyle author173505">LeAnne Wagner</div>
                   <div className="contributors authorstyle author173501">Lissa Aguilar</div>
@@ -242,15 +242,10 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
 
 
 
-            <SectionPage title="About" />
-
-
-
-
-
+            <SectionPage title="Introduction" />
 
             <p className="About">
-              <span className="author88210">Welcome to the Dictionary of <u>Dark Matters</u>.</span>
+              <span className="author88210">This is the Dictionary of <u>Dark Matters</u>.</span>
               <sup className="wordinline">186</sup>
               <span className="author88210"> During the Summer of 2020, Dark Matters was taught by </span>
               <span className="author134492">American Artist with the assistance of Zainab Aliyu. </span>
@@ -259,7 +254,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">this class over </span>
               <span className="author134492">the video platform <u>Zoom</u>. </span>
               <sup className="wordinline">559 </sup>
-              <span className="author88210"> Thirty-two students </span>
+              <span className="author88210"> Thirty students </span>
               <span className="author134492">convened over and through national borders </span>
               <span className="author88210">to <u>study</u> </span>
               <sup className="wordinline">482</sup>
@@ -328,10 +323,10 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">with </span>
               <span className="author134492">the </span>
               <span className="author88210">COVID</span>
-              <span className="author134492">-19</span>
-            </p>
+              <span className="author134492">-19 </span>
+            {/* </p>
 
-            <p className="About">
+            <p className="About"> */}
               <span className="author134492">pandemic, </span>
               <span className="author88210">the ongoing movement for Black </span>
               <span className="author88210"> Lives </span>
@@ -359,10 +354,10 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">other. Through our co-learning, we can better understand how structures are compromised, and we can begin to imagine strategies for future resistance, and what an outside to the structures </span>
               <span className="author134492">we participate in </span>
               <span className="author88210">might actually look and feel like.</span>
-            </p>
+            {/* </p>
 
-            <p className="About">
-              <span className="author134492">The book you are reading is the culmination of all of that thought. It is a 500+ page (and growing) collaborative <u>people's dictionary</u></span>
+            <p className="About"> */}
+              <span className="author134492">The self-published book you are reading is the culmination of all of that thought. It is a 500+ page (and growing) collaborative <u>people's dictionary</u></span>
               <sup className="wordinline">100 </sup>
               <span className="author134492"> written </span>
               <span className="author88210">over the course of ten weeks. </span>
@@ -374,9 +369,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <sup className="wordinline">100 </sup>
               <span className="author88210">every voice within the dictionary is uniquely represented with the contributor's preference in typography. By </span>
 
-            </p>
+            {/* </p>
 
-            <p className="About">
+            <p className="About"> */}
               <span className="author88210">archiving our histories and inserting our </span>
               <span className="author134492"><u>human</u> </span>
               <sup className="wordinline">100 </sup>
@@ -384,18 +379,30 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">remain captive.</span>
             </p>
 
-            <p className="About">
-              <span className="author134492">We would like to thank the School for Poetic Computation for holding space for us and Lauren Gardner for her immense support. A special thanks to Ingrid Burrington, Simone Browne, Zach Blas, Rashida Richardson, Stephanie Dinkins and Tsige Tafesse for joining our students in conversation throughout the term.</span>
+            {/* <p className="About">
+              <span className="author134492">We would like to thank the School for Poetic Computation for holding space for us and Lauren Gardner for her immense support. A special thanks to Ingrid Burrington, Simone Browne, Zach Blas, Rashida Richardson, Stephanie Dinkins and Tsige Tafesse for joining our students in conversation throughout the session.</span>
             </p>
 
             <p className="About">
               <span className="author88210">This book was designed by Zainab Aliyu (cover in collaboration with American Artist) edited by Jessica Rajko, and assembled with the support of Are.na, Callil Capuozzo, Tyler Yin and Sara K.R. </span>
+            </p> */}
+
+            <p className="Ack">
+              <span className="neutral">— contributed by American Aritst and Zainab Aliyu</span>
             </p>
 
-            <p className="About">
-              <span className="sc-fzqBZW kjNSqW neutral">— contributed by American Aritst and Zainab Aliyu</span>
-            </p>
+            <SectionPage title="" />
+            <SectionPage title="" />
+            <SectionPage title="Acknowledgements" />
 
+            <div>
+            <p className="Ack">
+              <span className="neutral">Thank you to the School for Poetic Computation for holding space for us and Lauren Gardner for her immense support. A special thanks to Ingrid Burrington, Simone Browne, Zach Blas, Rashida Richardson, Stephanie Dinkins and Tsige Tafesse for joining our students in conversation throughout the session.</span>
+            </p>
+            <p className="Ack">
+              <span className="neutral">This book and its digital counterpart, darkmatters.xyz, was designed by Zainab Aliyu (cover designed in collaboration with American Artist), edited by Jessica Rajko, and assembled with the support of Are.na and Callil Capuozzo.</span>
+            </p>
+            </div>
 
 
 

@@ -9,11 +9,12 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 13pt;
+  font-size: 12pt;
   margin-bottom: 0.175in;
   max-width: 5.5in;
   min-height: 0.175in;
   overflow: hidden;
+  font-weight: bold;
 
   // adjust to align with page numbers
   margin-top: -0.1em;
