@@ -204,7 +204,7 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
                   <div className="contributors authorstyle author173511">brontë velez</div>
                   <div className="contributors authorstyle author173508">Cameron Granger</div>
                   <div className="contributors authorstyle author13842">connor trotter</div>
-                  <div className="contributors authorstyle author37613">David Lisbon</div>
+                  <div className="contributors authorstyle author37613"><span className="contrib">David Lisbon</span></div>
                   <div className="contributors authorstyle author173736">Diana Marin</div>
                   <div className="contributors authorstyle author173830">Heather Snyder Quinn</div>
                   <div className="contributors authorstyle author72134">ilona altman</div>
@@ -324,9 +324,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author134492">the </span>
               <span className="author88210">COVID</span>
               <span className="author134492">-19 </span>
-            {/* </p>
+            </p>
 
-            <p className="About"> */}
+            <p className="About">
               <span className="author134492">pandemic, </span>
               <span className="author88210">the ongoing movement for Black </span>
               <span className="author88210"> Lives </span>
@@ -354,9 +354,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <span className="author88210">other. Through our co-learning, we can better understand how structures are compromised, and we can begin to imagine strategies for future resistance, and what an outside to the structures </span>
               <span className="author134492">we participate in </span>
               <span className="author88210">might actually look and feel like.</span>
-            {/* </p>
+            </p>
 
-            <p className="About"> */}
+            <p className="About">
               <span className="author134492">The self-published book you are reading is the culmination of all of that thought. It is a 500+ page (and growing) collaborative <u>people's dictionary</u></span>
               <sup className="wordinline">100 </sup>
               <span className="author134492"> written </span>
@@ -369,9 +369,9 @@ const Book: React.FC<BookProps> = ({ channel, contents }) => {
               <sup className="wordinline">100 </sup>
               <span className="author88210">every voice within the dictionary is uniquely represented with the contributor's preference in typography. By </span>
 
-            {/* </p>
+            </p>
 
-            <p className="About"> */}
+            <p className="About">
               <span className="author88210">archiving our histories and inserting our </span>
               <span className="author134492"><u>human</u> </span>
               <sup className="wordinline">100 </sup>

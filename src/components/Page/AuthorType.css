@@ -11,6 +11,19 @@
 
 
 @font-face {
+    font-family: 'Wilson';
+    src: url('../../fonts/Wilson.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fonts/Gotham-Book.otf');
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'Reckless';
     src: url('../../fonts/RecklessNeue-Medium.otf');
     font-style: normal;
@@ -188,6 +201,22 @@ span.author173746.authorstyle ,
 }
 
 
+/* david */
+.author37613.authorstyle {
+  font-family: 'Wilson';
+  font-style: normal;
+  color: #000;
+}
+.author37613.authorstyle p p,
+span.author37613.authorstyle ,
+.author37613.authorstyle li,
+.author37613.authorstyle span.contrib
+{
+  background-color: #E6E6FA;
+}
+
+
+
 /* lauren g */
 .author17810.authorstyle {
   font-family: "Special Elite", cursive;
@@ -211,6 +240,15 @@ span.author17810.authorstyle ,
   color: #df73ff;
   font-weight: 300;
 }
+
+
+/* diana */
+.author173736.authorstyle {
+  font-family: "Ubuntu", sans-serif;
+  color: #7851A9;
+  font-weight: 300;
+}
+
 
 /* jessica */
 .author173499.authorstyle {
@@ -374,6 +412,14 @@ span.author17810.authorstyle ,
 }
 
 
+/* leanne */
+.author173505.authorstyle {
+  /* font-family: 'Hershey Futura'; */
+  font-family: 'Gotham';
+  color: #159ED9;
+}
+
+
 
 /* ————————————————————————————————————————————————————————————————————————————————————— */
 
@@ -384,30 +430,10 @@ span.author17810.authorstyle ,
   color: orange;
 }
 
-/* david */
-.author37613.authorstyle {
-  font-family: 'Terminal';
-  color: #18c1ff;
-}
-
 /* bronte */
 .author173511.authorstyle {
   font-family: 'Hershey Times', cursive;
   color: #b08213;
 } .author173511.authorstyle p {
   letter-spacing: -1px;
-}
-
-/* leanne */
-.author173505.authorstyle {
-  font-family: 'Hershey Futura';
-  color: #20d2ed;
-}
-
-
-
-/* diana */
-.author173736.authorstyle {
-  font-family: Arial;
-  color: #20ed9d;
 }

@@ -9,7 +9,7 @@ const Container = styled.div`
   // font-size: 11pt;
   // font-size: 12pt;
   font-size: 10pt;
-  font-weight: bold;
+  // font-weight: bold;
   font-family: "Special Elite", cursive;
   display: flex;
   height: 100%;
@@ -46,7 +46,7 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ blocks }) => {
       {blocksWithTitles.map(b => {
         return (
           b.title !== lastTitle && (
-            <ContentsLine href={`#${b.id.toString()}`} className="toc-line">
+            <ContentsLine href={`#block${b.id.toString()}`} className="toc-line">
               <Title dangerouslySetInnerHTML={{ __html: b.title }} />
             </ContentsLine>
           )

@@ -80,7 +80,7 @@ p ol {
 
   color: #000 !important;
   font-style: none !important;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* padding-top: 0.25in; */
   line-height: 1.25;
   margin: 0.5em 0;
@@ -189,8 +189,8 @@ blockquote {
 
 sup.wordinline {
   font-family: "Special Elite", cursive;
-  font-size: 12pt;
-  font-weight: bold;
+  font-size: 10pt;
+  /* font-weight: bold; */
 }
 
 

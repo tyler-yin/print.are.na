@@ -14,7 +14,8 @@ const Container = styled.div`
   max-width: 5.5in;
   min-height: 0.175in;
   overflow: hidden;
-  font-weight: bold;
+  font-weight: normal;
+  // font-weight: bold;
 
   // adjust to align with page numbers
   margin-top: -0.1em;
