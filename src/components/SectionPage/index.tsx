@@ -4,9 +4,10 @@ import styled from "styled-components"
 import { PageBreak } from "styles/index"
 
 const Title = styled.h6`
+  // font-weight: bold;
   font-weight: normal;
   margin: 0;
-  font-size: 13pt;
+  font-size: 12pt;
 `
 
 const Container = styled.div`

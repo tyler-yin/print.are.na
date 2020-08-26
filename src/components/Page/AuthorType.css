@@ -11,8 +11,49 @@
 
 
 @font-face {
+    font-family: 'Wilson';
+    src: url('../../fonts/Wilson.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fonts/Gotham-Book.otf');
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'Reckless';
     src: url('../../fonts/RecklessNeue-Medium.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara';
+    src: url('../../fonts/avara.woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Terminal';
+    src: url('../../fonts/terminal-grotesque-webfont.woff');
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Hershey Times';
+    src: url('../../fonts/Hershey-Noailles-Times-Duplex-Italic-Regular.woff');
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Hershey Futura';
+    src: url('../../fonts/Hershey-Noailles-Futura-Duplex-Regular.woff');
     font-style: normal;
 }
 
@@ -117,7 +158,9 @@
 /* zai */
 .author88210.authorstyle, .author88210 {
   font-family: 'Kavivanar', cursive;
-  color: #0000EE;
+  /* font-family: 'Hershey', cursive;
+  letter-spacing: -1px; */
+  color: #ff7a3f;
 }
 
 
@@ -157,12 +200,55 @@ span.author173746.authorstyle ,
   background-color: #c9f2f2;
 }
 
+
+/* david */
+.author37613.authorstyle {
+  font-family: 'Wilson';
+  font-style: normal;
+  color: #000;
+}
+.author37613.authorstyle p p,
+span.author37613.authorstyle ,
+.author37613.authorstyle li,
+.author37613.authorstyle span.contrib
+{
+  background-color: #E6E6FA;
+}
+
+
+
+/* lauren g */
+.author17810.authorstyle {
+  font-family: "Special Elite", cursive;
+  font-style: normal;
+  color: #000;
+}
+.author17810.authorstyle p p,
+span.author17810.authorstyle ,
+.author17810.authorstyle li,
+.author17810.authorstyle span.contrib
+{
+  background-color: #f2ffad;
+}
+
+
+
+
 /* tash */
 .author159845.authorstyle {
   font-family: "Ubuntu", sans-serif;
   color: #df73ff;
   font-weight: 300;
 }
+
+
+/* diana */
+.author173736.authorstyle {
+  font-family: "Ubuntu", sans-serif;
+  color: #7851A9;
+  font-weight: 300;
+}
+
 
 /* jessica */
 .author173499.authorstyle {
@@ -201,10 +287,10 @@ span.author173746.authorstyle ,
 /* timur */
 .author7454.authorstyle {
   font-family: Times;
-  letter-spacing: -.03em;
   color: #ff0000;
 } .author7454.authorstyle p {
   font-style: italic;
+  letter-spacing: -.03em;
 }
 
 /* sara */
@@ -249,7 +335,7 @@ span.author173746.authorstyle ,
 
 /* lauren m. */
 .author173730.authorstyle {
-  font-family: Arial;
+  font-family: 'Arial';
   color: #FF00FF;
 }
 
@@ -326,36 +412,28 @@ span.author173746.authorstyle ,
 }
 
 
+/* leanne */
+.author173505.authorstyle {
+  /* font-family: 'Hershey Futura'; */
+  font-family: 'Gotham';
+  color: #159ED9;
+}
+
+
 
 /* ————————————————————————————————————————————————————————————————————————————————————— */
 
 
 /* makayla */
 .author102862.authorstyle {
-  font-family: Arial;
+  font-family: 'Avara';
   color: orange;
-}
-
-/* david */
-.author37613.authorstyle {
-  font-family: Arial;
-  color: #000;
 }
 
 /* bronte */
 .author173511.authorstyle {
-  font-family: Arial;
-  color: #000;
-}
-
-/* leanne */
-.author173505.authorstyle {
-  font-family: Arial;
-  color: #000;
-}
-
-/* lauren g */
-.author17810.authorstyle {
-  font-family: Arial;
-  color: #000;
+  font-family: 'Hershey Times', cursive;
+  color: #b08213;
+} .author173511.authorstyle p {
+  letter-spacing: -1px;
 }
